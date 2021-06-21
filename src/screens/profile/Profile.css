@@ -1,0 +1,7 @@
+.profileText {
+    top: 50%;
+    left: 50%;
+    color: #b016be;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}

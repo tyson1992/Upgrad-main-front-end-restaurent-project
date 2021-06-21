@@ -1,0 +1,151 @@
+.panel-menu-details-cart {
+    display: flex;
+    padding: 30px;
+    margin-right: 30px;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+@media screen and (min-width:600px) {
+    .menu-details {
+        width: 45%;
+    }
+    .my-cart {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .panel-menu-details-cart {
+        flex-direction: column;
+        margin-left: 16px;
+        margin-right: 16px;
+        padding: 0px;
+    }
+    .menu-details {
+        width: 100%;
+    }
+    .my-cart {
+        width: 100%;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .panel-restaurant-details {
+        flex-direction: column;
+    }
+    .restaurant-details {
+        text-align: center;
+    }
+    .restaurant-avg-cost-container {
+        margin-left: auto;
+    }
+    .restaurant-rating {
+        align-self: center;
+    }
+    .restaurant-avg-cost {
+        place-content: center;
+    }
+}
+
+.restaurant-rating-cost-container {
+    align-items: center;
+    display: flex;
+}
+
+.panel-restaurant-details {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(231, 231, 231)
+}
+
+.restaurant-avg-cost {
+    display: flex;
+    align-items: baseline;
+}
+
+.restaurant-rating-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width:1000px) {
+    .restaurant-avg-cost-container {
+        margin-left: 350px;
+    }
+}
+
+.restaurant-NoOfCustomerRated {
+    font-weight: bold;
+}
+
+@media screen and (min-width:600px) {
+    .restaurant-details {
+        margin-left: 75px;
+        width: 100%;
+    }
+}
+
+.restaurant-avg-cost-container {
+    flex-direction: column;
+    margin-left: auto;
+    display: flex;
+}
+
+.restaurant-rating {
+    align-items: baseline;
+    display: flex;
+}
+
+.item-price {
+    align-items: baseline;
+    margin-left: auto;
+    display: flex;
+}
+
+#cart-item-price {
+    color: grey;
+}
+
+.total-price {
+    display: flex;
+    align-items: baseline;
+}
+
+.total-amount-container {
+    align-items: baseline;
+    justify-content: space-between;
+    display: flex;
+}
+
+#cart-total-price {
+    font-weight: bold;
+}
+
+#minus-button {
+    margin-left: auto;
+}
+
+#cart-menu-item-name {
+    width: 150px;
+    margin-left: 40px;
+    color: grey;
+}
+
+.menu-item-container {
+    display: flex;
+    align-items: center;
+}
+
+.cart-menu-item-container {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
