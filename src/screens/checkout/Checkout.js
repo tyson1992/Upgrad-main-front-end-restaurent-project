@@ -217,6 +217,7 @@ class Checkout extends Component {
 
         xhrAddress.open('GET', this.props.baseUrl + 'address/customer');
         xhrAddress.setRequestHeader('authorization', 'Bearer ' + this.state.accessToken)
+        xhrAddress.setRequestHeader('Content-Type','application/json')
         xhrAddress.send(data);
 
     }
@@ -388,6 +389,7 @@ class Checkout extends Component {
                 }
             })
             xhrStates.open('GET', this.props.baseUrl + 'states');
+            xhrStates.setRequestHeader('Content-Type','application/json')
             xhrStates.send(statesData);
 
 
