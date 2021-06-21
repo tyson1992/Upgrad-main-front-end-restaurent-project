@@ -1,4 +1,4 @@
-#FoodorderingFrontEnd
+#FoodOrderingFrontEnd
 
 steps to run:
 
