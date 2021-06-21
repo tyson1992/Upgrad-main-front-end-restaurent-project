@@ -4,7 +4,7 @@ steps to run:
 
 step1: Install MVN in your System
 
-step2: Run Foodordering-Resteraunt-Backend Server
+step2: Run Foodordering-Restaurent-Backend Server
 
 step3: Run Postgress Server which is also called PGAdmin
 
